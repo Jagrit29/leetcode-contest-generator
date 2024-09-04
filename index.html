@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Custom Contest Generator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>LeetCode Contest Generator</h1>
+
+        <div class="input-container">
+            <label for="duration">Contest Duration (minutes):</label>
+            <input type="number" id="duration" value="60" min="1">
+        </div>
+
+        <button class="start-button">Start Contest</button>
+
+        <div class="question-list"></div>
+
+        <div class="timer hidden">
+            <div>Time Remaining: <span id="timer">00:00</span></div>
+        </div>
+
+        <button class="regenerate-button hidden">Regenerate Contest</button>
+        <button class="end-button hidden">End Contest</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
