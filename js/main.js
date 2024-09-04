@@ -104,6 +104,15 @@ function displayQuestions(questions) {
       markButton.className = 'tick-button';
       markButton.textContent = 'Mark as Solved';
       markButton.onclick = () => toggleSolved(index);
+
+            // Add a class based on index (for demonstration, adjust as needed)
+      if (index === 0) {
+        questionLink.className = 'easy';
+      } else if (index === 1 || index === 2) {
+        questionLink.className = 'medium';
+      } else {
+        questionLink.className = 'hard';
+      }
       
       questionItem.appendChild(questionLink);
       questionItem.appendChild(markButton);

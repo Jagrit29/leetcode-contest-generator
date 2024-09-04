@@ -124,3 +124,16 @@ button:hover {
 .footer {
   margin-top: 20px;
 }
+
+/* Difficulty-based colors */
+.easy {
+  color: green !important;
+}
+
+.medium {
+  color: orange !important;
+}
+
+.hard {
+  color: red !important;
+}
