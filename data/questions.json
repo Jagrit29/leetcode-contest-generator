@@ -4,6 +4,11 @@
         "title": "Encrypt and Decrypt Strings",
         "titleSlug": "encrypt-and-decrypt-strings"
     },
+   {
+        "difficulty": "HARD",
+        "title": "Build a Matrix With Conditions",
+        "titleSlug": "build-a-matrix-with-conditions"
+    },
     {
         "difficulty": "EASY",
         "title": "Two Sum",
