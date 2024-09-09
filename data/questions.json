@@ -1,4 +1,9 @@
 [
+   {
+        "difficulty": "HARD",
+        "title": "Encrypt and Decrypt Strings",
+        "titleSlug": "encrypt-and-decrypt-strings"
+    },
     {
         "difficulty": "EASY",
         "id": 1,
