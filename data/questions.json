@@ -6,6 +6,11 @@
     },
    {
         "difficulty": "HARD",
+        "title": "Longest Path With Different Adjacent Characters",
+        "titleSlug": "longest-path-with-different-adjacent-characters"
+    },
+   {
+        "difficulty": "HARD",
         "title": "Build a Matrix With Conditions",
         "titleSlug": "build-a-matrix-with-conditions"
     },
